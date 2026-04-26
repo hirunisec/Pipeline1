@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Stage 1: Build'
+                echo 'Stage 1: Build Section'
                 echo 'Task: Compile and package the application code.'
                 echo 'Tool: Maven can be used as a build automation tool.'
             }
